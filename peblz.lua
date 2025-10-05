@@ -1,5 +1,5 @@
 repeat task.wait() until game:IsLoaded()
-setfpscap(60)
+setfpscap(20)
 
 getgenv().ConfigsKaitun = {
 	Beta_Fix_Data_Sync = false,
@@ -122,6 +122,7 @@ getgenv().ConfigsKaitun = {
 			"Godly Sprinkler",
 			"Advanced Sprinkler",
 			"Basic Sprinkler",
+			"Trading Ticket",
 			"Lightning Rod",
 			"Level Up Lollipop",
 			"Medium Treat",
@@ -134,6 +135,8 @@ getgenv().ConfigsKaitun = {
 			"Godly Sprinkler",
 			"Advanced Sprinkler",
 			"Basic Sprinkler",
+			"Level Up Lollipop",
+			"Trading Ticket",
 			"Lightning Rod",
 		},
 	},
@@ -141,10 +144,10 @@ getgenv().ConfigsKaitun = {
 	Eggs = {
 		Place = {
 			-- "Rare Summer Egg",
-			-- "Common Summer Egg",
+			"Common Summer Egg",
 			-- "Paradise Egg",
 			-- "Bug Egg",
-			-- "Mythical Egg",
+			"Mythical Egg",
 			-- "Enchanted Egg",
 			-- "Fall Egg",
 			-- "Jungle Egg",
@@ -231,7 +234,7 @@ getgenv().ConfigsKaitun = {
 			["Starfish"] = 20,
 			["Squirrel"] = 20,
 		},
-		LockPet_Weight = 6, -- if Weight >= 10 they will locked,
+		LockPet_Weight = 4, -- if Weight >= 10 they will locked,
 		Ignore_Pet_Weight = {
 			"",
 		},
