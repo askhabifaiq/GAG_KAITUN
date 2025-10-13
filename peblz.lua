@@ -5,7 +5,7 @@ getgenv().ConfigsKaitun = {
 
 	["Block Pet Gift"] = true,
 
-	Collect_Cooldown = 60, -- cooldown to collect fruit
+	Collect_Cooldown = 10, -- cooldown to collect fruit
 
 	["Low Cpu"] = true,
 	["Auto Rejoin"] = true,
@@ -128,19 +128,19 @@ getgenv().ConfigsKaitun = {
 
 	Eggs = {
 		Place = {
-			"Spooky Egg",
+			--"Spooky Egg",
 			"Jungle Egg",
 			"Fall Egg",
-			"Primal Egg",
+			-- "Primal Egg",
 			"Dinosaur Egg",
 			"Oasis Egg",
-			"Anti Bee Egg",
-			"Bug Egg",
-			"Paradise Egg",
-			"Bee Egg",
+			-- "Anti Bee Egg",
+			-- "Bug Egg",
+			-- "Paradise Egg",
+			-- "Bee Egg",
 			"Rare Summer Egg",
 			"Mythical Egg",
-			"Common Egg",
+			-- "Common Egg",
 		},
 		Buy = {
 			"Bee Egg",
