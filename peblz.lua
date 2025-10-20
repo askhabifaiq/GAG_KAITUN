@@ -1,5 +1,6 @@
+repeat task.wait() until game:IsLoaded()
+setfpscap(3)
 getgenv().ConfigsKaitun = {
-	setfpscap(5)
 	Beta_Fix_Data_Sync = true,
 
 	NoDeletePlayer = false,
