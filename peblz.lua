@@ -1,4 +1,5 @@
 getgenv().ConfigsKaitun = {
+	setfpscap(5)
 	Beta_Fix_Data_Sync = true,
 
 	NoDeletePlayer = false,
