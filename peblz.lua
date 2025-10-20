@@ -85,7 +85,7 @@ getgenv().ConfigsKaitun = {
 		
 		Shop = { -- un comment to buy
 			"Spooky Egg",
-			"Pumpkin",
+			"Pumpkin"
 		},
 		["Traveling Shop"] = {
 			"Bee Egg",
