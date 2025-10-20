@@ -84,7 +84,8 @@ getgenv().ConfigsKaitun = {
 		-- MaxMoney_Restocks = 10_000_000,
 		
 		Shop = { -- un comment to buy
-		
+			"Spooky Egg",
+			"Pumpkin",
 		},
 		["Traveling Shop"] = {
 			"Bee Egg",
